@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+#map {
+    transform-origin: 60% 10%;
+}
+
+
+/* Line 4 Eastbound */
+
+.line-4-bayview-east{
+    animation: line-4-bayview-east 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.line-4-bessarion-east{
+    animation: line-4-bessarion-east 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.line-4-leslie-east{
+    animation: line-4-leslie-east 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.line-4-don-mills-east{
+    animation: line-4-don-mills-east 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-4-bayview-east {
+    from {transform: translateX(0px)}
+    to {transform: translateX(225px)}
+}
+
+@keyframes line-4-bessarion-east {
+    from {transform: translateX(225px)}
+    to {transform: translateX(335px)}
+}
+
+@keyframes line-4-leslie-east {
+    from {transform: translateX(335px)}
+    to {transform: translateX(450px)}
+}
+
+@keyframes line-4-don-mills-east {
+    from {transform: translateX(450px)}
+    to {transform: translateX(522px)}
+}
+
+/* Line 4 Westbound */
+
+.line-4-sheppard-east-west{
+    animation: line-4-sheppard-east-west 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.line-4-bayview-west{
+    animation: line-4-bayview-west 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.line-4-bessarion-west{
+    animation: line-4-bessarion-west 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+.line-4-leslie-west{
+    animation: line-4-leslie-west 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-4-sheppard-east-west {
+    from {transform: translateX(225px)}
+    to {transform: translateX(0px)}
+}
+
+@keyframes line-4-bayview-west {
+    from {transform: translateX(335px)}
+    to {transform: translateX(225px)}
+}
+
+@keyframes line-4-bessarion-west {
+    from {transform: translateX(450px)}
+    to {transform: translateX(335px)}
+}
+
+@keyframes line-4-leslie-west {
+    from {transform: translateX(522px)}
+    to {transform: translateX(450px)}
+}
