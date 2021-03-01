@@ -1,13 +1,5 @@
-const slider = document.getElementById("zoomRange");
 const zvgZoom = document.getElementById("map");
-const zoomValue = document.getElementById("zoomValue");
 zvgZoom.style.transform = `scale(${4})`;
-
-slider.oninput = function() {
-    //console.log('zoom', this.value / 100);
-    zoomValue.innerText = `${this.value}%`;
-    zvgZoom.style.transform = `scale(${this.value / 100})`;
-}
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
