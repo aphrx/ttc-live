@@ -1,0 +1,22 @@
+{
+  "name": "ttc_live",
+  "version": "1.0.0",
+  "description": "## Documentation in progress, just look around the code for now!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrx/ttc-live.git"
+  },
+  "author": "Aphrx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aphrx/ttc-live/issues"
+  },
+  "homepage": "https://github.com/aphrx/ttc-live#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
