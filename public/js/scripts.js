@@ -87,7 +87,7 @@ async function play_line1(train) {
 }
 
 async function deploy_line4(){
-    var line_4_trains = ["train4A", "train4B", "train4C", "train4D"];
+    var line_4_trains = ["train401", "train402", "train403", "train404"];
     for (i = 0; i < line_4_trains.length; i++) {
         play_line4(line_4_trains[i]);
         await sleep(7000);
