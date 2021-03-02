@@ -6,7 +6,7 @@
 
 ## Execution
 - Clone this repo
-- Install Express by using ```npm install express --save```
+- Run ```npm i``` to install the necessary dependencies
 - Run ```npm start```
 - Navigate to ```http://localhost:8080/``` and have fun!
 
