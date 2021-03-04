@@ -11,4 +11,4 @@
 - Navigate to ```http://localhost:8080/``` and have fun!
 
 
-#### Documentation in progress, just look around the code for now!
+## REFACTOR IN PROGRESS, CONVERTING PROJECT TO REACT
